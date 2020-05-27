@@ -21,3 +21,10 @@ print(say_hello_name(known_input_say_hello) == (expected_output_say_hello))
 
 print(say_hello_name(known_input_say_hello))
 
+from general_functions import surname
+
+known_input_surname = '    forester     '
+expected_output_surname = 'Forester'
+
+print("Testing function surname() with '   forester     ' --> 'Forester'")
+print(surname(known_input_surname) == (expected_output_surname))

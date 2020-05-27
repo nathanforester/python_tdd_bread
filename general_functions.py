@@ -19,3 +19,6 @@ def return_formatted_name(name):
 # f_name = return_formatted_name("  Nathan       ")
 #
 # print(say_hello_name(f_name))
+
+def surname(sname):
+    return sname.title().strip()
