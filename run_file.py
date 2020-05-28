@@ -28,3 +28,12 @@ expected_output_surname = 'Forester'
 
 print("Testing function surname() with '   forester     ' --> 'Forester'")
 print(surname(known_input_surname) == (expected_output_surname))
+
+from new_bizz_buzz import check_if_digit_div_num
+
+known_number_1 = 5
+known_number_2 = 5
+expected_number_output = 0
+
+print("Testing function check_if_digit_div_num() with '5, 5' ---> '0'")
+print(check_if_digit_div_num(known_number_1, known_number_2) == (expected_number_output))
