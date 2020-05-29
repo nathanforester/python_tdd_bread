@@ -15,7 +15,7 @@ def bake_bread(dough):
 
 
 def wholewheat(ingredient1, ingredient2):
-    if ingredient1== 'water' and ingredient2=='wholewheat flour':
+    if (ingredient1 == 'water' and ingredient2 == 'flour') or (ingredient1 == 'flour' and ingredient2 == 'water'):
         return 'factory downtime more effective and new markets'
     else:
         return 'factory downtime not more effective and no new markets'
